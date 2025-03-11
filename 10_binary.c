@@ -8,9 +8,6 @@ int main(){
     if (n<0){
         printf("-");
     }
-    if (n<0){
-        
-    }
     do{
         so[i]=abs(n)%2;
         n = abs(n)/2;
