@@ -7,7 +7,7 @@ int main(){
     s=A;
     printf("so thang: ");
     scanf("%d",&n);
-    for (int i=1 ; i==n ; i++){
+    for (int i=1 ; i<=n ; i++){
         s += s*0.0045;
     }
     printf("%.3f",s);
